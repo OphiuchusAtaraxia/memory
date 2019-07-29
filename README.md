@@ -3,7 +3,12 @@ Memory
 
 ### Installation
 
-Cloner ou décompresser le projet. Dans le répertoire lancer la commande
+Cloner ou décompresser le projet. 
+Aller dans le répertoire /memory
+```
+cd memory
+```
+lancer docker avec la commande
 ```
 docker-compose up
 ```
