@@ -1,0 +1,37 @@
+body h1 {
+  text-align: center;
+}
+
+body ul {
+  margin-top: revert;
+}
+
+body ul li {
+  list-style-type: none;
+}
+
+body #game-board {
+  background-color: #ddd;
+  width: 100%;
+  max-width: 990px;
+  margin: 30px auto;
+}
+
+body #game-board .memory-card {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: solid white 3px;
+  background-color: #555;
+}
+
+body .overlay {
+  background-color: rgba(0, 0, 0, 0);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  right: 0;
+  top: 0;
+}
+/*# sourceMappingURL=main.css.map */

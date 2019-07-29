@@ -1,0 +1,37 @@
+$bgColorGrey : #ddd;
+$backCardColor : #555;
+body {
+    h1 {
+        text-align: center;
+    }
+    ul {
+        margin-top: revert;
+        li {
+            list-style-type: none;
+        }
+    }
+    #game-board {
+        background-color: $bgColorGrey;
+        width: 100%;
+        max-width: 990px;
+        margin: 30px auto;
+
+        .memory-card {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            border: solid white 3px;
+            background-color: $backCardColor;
+        }
+    }
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0);
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        display: none;
+        right: 0;
+        top: 0;
+    }
+}
